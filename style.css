@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(237, 237, 237);
+}
+
+.container {
+    border: 1px solid black;
+}
+
+.nav {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.nav img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.company_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0;
+}
+
+.company_heading {
+    text-align: center;
+    background-color: rgb(171, 180, 252);
+    width: max-content;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.company_intro {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.line {
+    border-bottom: 2px dashed rgb(171, 180, 252);
+    width: 350px;
+    margin-top: 20px;
+}
+
+.company_team h2 {
+    text-align: center;
+}
+
+.Leadership_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.Leadership_title span {
+    text-align: center;
+    background-color: rgb(171, 180, 252);
+    width: max-content;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.leadership_team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.founder_team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.founder img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto
+}
+
+.founder {
+    width: 25%;
+}
+
+.vp_team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.vp_team img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.vp {
+    text-align: center;
+    width: 25%;
+}
+
+i {
+    color: rgb(134, 147, 243);
+}
+
+.development_team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.images {
+    width: 0%;
+    float: left;
+}
+
+.images img {
+    width: 100px;
+}
+
+.development_team-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.development_team-heading h3 {
+    background-color: rgb(171, 180, 252);
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    width: max-content;
+}
+
+.Developer_team1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.Developer1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+}
+
+.Developer1 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.Developer_team2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.sales_marketing-team {
+    margin-top: 50px;
+}
+
+.sales_img {
+    width: 0%;
+    float: right;
+}
+
+.sales_marketing-team img {
+    width: 100px;
+    float: right;
+}
+
+.sales-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.sales-heading h3 {
+    background-color: rgb(171, 180, 252);
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    width: 250px;
+}
+
+.sales_team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.sales {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+}
+
+.sales_h3 {
+    margin-top: 15px;
+}
+
+.sales img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.marketing_team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.Marketing {
+    width: 25%;
+}
+
+.Marketing img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.foot_img {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.foot_img img {
+    width: 100px;
+}
+
+@media screen and (max-width:570px) {
+    img {
+        width: 60px !important;
+        height: 60px !important;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    i {
+        font-size: 10px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    .line {
+        width: 200px;
+    }
+
+    .sales-heading h3 {
+        font-size: 12px;
+        width: 150px;
+    }
+
+    .development_team-heading h3 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:387px) {
+    p {
+        font-size: 10px;
+    }
+
+    i {
+        font-size: 8px;
+    }
+
+    .company_intro {
+        font-size: 12px !important;
+    }
+}
